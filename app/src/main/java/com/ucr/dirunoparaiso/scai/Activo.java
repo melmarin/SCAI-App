@@ -33,7 +33,7 @@ public class Activo extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_activo);
 
         //Initializing views
         editTextNum = (EditText) findViewById(R.id.editTextNum);

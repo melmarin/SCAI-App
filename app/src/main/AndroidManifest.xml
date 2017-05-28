@@ -21,7 +21,7 @@
             <activity android:name=".GetDepartamentos" />
             <activity android:name=".GetDepartamento" />
             <activity android:name=".Departamento" />
-            <activity android:name=".Activo" >
+            <activity android:name=".Activo">
         </activity>
         <!--<activity android:name=".Login"></activity>-->
     </application>
