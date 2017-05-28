@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Departamento">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".GetDepartamentos" />
         <activity android:name=".GetDepartamento" />
-        <!--<activity android:name=".Departamento"></activity>-->
+        <activity android:name=".Departamento"></activity>
+        <!--<activity android:name=".Login"></activity>-->
     </application>
 
 </manifest>

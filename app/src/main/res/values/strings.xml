@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SCAI</string>
+    <string name="departamentos">Departamentos</string>
+    <string name="crear_departamento">Crear departamento</string>
+    <string name="salir">Salir</string>
+
 </resources>

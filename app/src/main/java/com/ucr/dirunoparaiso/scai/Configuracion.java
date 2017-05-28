@@ -7,6 +7,7 @@ package com.ucr.dirunoparaiso.scai;
 public class Configuracion {
 
     //Address of our scripts of the CRUD
+    public static final String URL_LOGIN="http://pruebasucr2017.esy.es/login.php";
     public static final String URL_ADD_DEPARTAMENTO="http://pruebasucr2017.esy.es/createDepartamento.php";
     public static final String URL_GET_DEPARTAMENTOS = "http://pruebasucr2017.esy.es/getDepartamentos.php";
     public static final String URL_GET_DEPARTAMENTO = "http://pruebasucr2017.esy.es/getDepartamento.php?id_departamento=";
@@ -17,6 +18,8 @@ public class Configuracion {
     public static final String KEY_DEPARTAMENTO_ID_USUARIO = "id_usuario";
     public static final String KEY_DEPARTAMENTO_NOMBRE = "nombre";
     public static final String KEY_DEPARTAMENTO_DESCRIPCION = "descripcion";
+    public static final String KEY_USUARIO = "usuario";
+    public static final String KEY_CLAVE = "password";
 
     //JSON Tags
     public static final String TAG_JSON_ARRAY="result";
@@ -24,6 +27,8 @@ public class Configuracion {
     public static final String TAG_DEPARTAMENTO_ID_USUARIO = "id_usuario";
     public static final String TAG_DEPARTAMENTO_NOMBRE = "nombre";
     public static final String TAG_DESCRIPCION = "descripcion";
+    public static final String TAG_USUARIO = "usuario";
+    public static final String TAG_CLAVE = "password";
 
     //departamento id to pass with intent
     public static final String DEPARTAMENTO = "departamento";
