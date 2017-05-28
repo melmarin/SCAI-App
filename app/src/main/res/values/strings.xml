@@ -3,5 +3,13 @@
     <string name="departamentos">Departamentos</string>
     <string name="crear_departamento">Crear departamento</string>
     <string name="salir">Salir</string>
+    <string name="departamento_prompt">Seleccione un departamento</string>
+
+    <string-array name="departamento_arrays">
+        <item>Oficina</item>
+        <item>Sala de fisioterapía</item>
+        <item>Sala de comedor</item>
+        <item>Sala de televisión</item>
+    </string-array>
 
 </resources>
