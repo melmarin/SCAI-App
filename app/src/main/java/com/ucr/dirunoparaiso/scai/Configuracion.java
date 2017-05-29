@@ -14,6 +14,8 @@ public class Configuracion {
     public static final String URL_UPDATE_DEPARTAMENTO = "http://pruebasucr2017.esy.es/updateDepartamento.php";
     //ACTIVOS
     public static final String URL_ADD_ACTIVO = "http://pruebasucr2017.esy.es/addActivo.php";
+    //PRODUCTOS
+    public static final String URL_ADD_PRODUCTO = "http://pruebasucr2017.esy.es/addProducto.php";
 
     //Keys that will be used to send the request to php scripts
     public static final String KEY_DEPARTAMENTO_ID = "id_departamento";
@@ -31,6 +33,15 @@ public class Configuracion {
     public static final String KEY_ACTIVO_ADQ = "valorAdquisicion";
     public static final String KEY_ACTIVO_ACT = "valorActual";
     public static final String KEY_ACTIVO_MOD = "fechaModificacion";
+
+    //PRODUCTOS
+    public static final String KEY_PRODUCTO_NOMBRE = "nombre";
+    public static final String KEY_PRODUCTO_DES = "descripcion";
+    public static final String KEY_PRODUCTO_PESO = "peso";
+    public static final String KEY_PRODUCTO_PROV= "proveedor";
+    public static final String KEY_PRODUCTO_MIN = "cantidadMinima";
+    public static final String KEY_PRODUCTO_ACT = "cantidadActual";
+
 
     //JSON Tags
     public static final String TAG_JSON_ARRAY="result";
@@ -50,6 +61,17 @@ public class Configuracion {
     public static final String TAG_ACTIVO_ADQ = "valorAdquisicion";
     public static final String TAG_ACTIVO_ACT = "valorActual";
     public static final String TAG_ACTIVO_MOD = "fechaModificacion";
+    //PRODUCTO
+
+    public static final String TAG_PRODUCTO_NOMBRE = "nombre";
+    public static final String TAG_PRODUCTO_DES = "descripcion";
+    public static final String TAG_PRODUCTO_PESO = "peso";
+    public static final String TAG_PRODUCTO_PROV = "proveedor";
+    public static final String TAG_PRODUCTO_MIN = "cantidadMinima";
+    public static final String TAG_PRODUCTO_ACT = "cantidadActual";
+    public static final String TAG_PRODUCTO_MOD = "fechaModificacion";
+
+
 
     //departamento id to pass with intent
     public static final String DEPARTAMENTO = "departamento";

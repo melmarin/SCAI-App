@@ -99,7 +99,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     Log.d("Login attemp",json.toString());
                     success = json.getInt(TAG_SUCCESS);
                     if (success == 1){
-                        Intent intent = new Intent(Login.this, Departamento.class);
+                        Intent intent = new Intent(Login.this, Producto.class);
                         finish();
                         startActivity(intent);
                         return json.getString(TAG_MESSAGE);
